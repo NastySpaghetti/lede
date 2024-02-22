@@ -1,3 +1,4 @@
+test ax1800
 # 欢迎来到 Lean 的 LEDE 源码仓库
 
 为国产龙芯 LOONGSON SoC loongarch64 / 飞腾 Phytium 腾锐2000 系列架构添加支持
