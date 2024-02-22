@@ -10,6 +10,14 @@ name: OpenWrt-CI
 on:
   schedule:
     - cron: 0 20 * * *
+    
+  push:
+    branches:
+      - main
+      - my-test-branch
+    paths:
+      - 'src/**'
+      - '.github/workflows/openwrt-ci.yml'
 
 permissions:
   contents: read
